@@ -152,6 +152,7 @@
       - ExteriorLightTube
       - LightBulb
       - LedLightBulb
+      - DimLightBulb
       - Bucket
       - DrinkMug
       - DrinkMugMetal
@@ -361,6 +362,7 @@
       - EnergyScalpel # Shitmed Change
       - EnergyCautery # Shitmed Change
       - AdvancedRetractor # Shitmed Change
+      - PlantAnalyzer # Frontier
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - BoxBeanbag
@@ -485,7 +487,6 @@
       - SolarControlComputerCircuitboard
       - SolarTrackerElectronics
       - TurboItemRechargerCircuitboard
-      - PowerComputerCircuitboard
       - AutolatheHyperConvectionMachineCircuitboard
       - ProtolatheHyperConvectionMachineCircuitboard
       - CircuitImprinterHyperConvectionMachineCircuitboard
@@ -540,6 +541,8 @@
       - MassMediaCircuitboard
       - ReagentGrinderIndustrialMachineCircuitboard
       - JukeboxCircuitBoard
+      - SMESAdvancedMachineCircuitboard
+      - HolopadMachineCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard
@@ -784,6 +787,7 @@
       - Handcuffs
       - MagazineBoxLightRifle
       - MagazineBoxLightRiflePractice
+      - MagazineBoxLightRifleSilver
       - MagazineBoxMagnum
       - MagazineBoxMagnumPractice
       - MagazineBoxPistol
@@ -791,6 +795,7 @@
       - MagazineBoxRifle
       - MagazineBoxRiflePractice
       - MagazineLightRifle
+      - MagazineLightRifleSilver
       - MagazineLightRifleEmpty
       - MagazinePistol
       - MagazinePistolEmpty
@@ -1210,6 +1215,22 @@
       - ClothingUniformJumpsuitPyjamaSyndicatePink
       - ClothingHeadPyjamaSyndicateRed
       - ClothingUniformJumpsuitPyjamaSyndicateRed
+      # begin funkystation specific syndie wear
+      # syndie civilian
+      - ClothingUniformJumpsuitBotanistSyndicate
+      - ClothingUniformJumpsuitBartenderSyndicate
+      - ClothingUniformJumpsuitLibrarianSyndicate
+      - ClothingUniformJumpsuitScientistSyndicate
+      - ClothingUniformJumpsuitScientistWhiteSyndicate
+      # syndie command
+      - ClothingUniformJumpsuitGCMSyndicate
+      - ClothingUniformJumpsuitCCRSyndicate
+      - ClothingUniformJumpsuitIMDSyndicate
+      - ClothingUniformJumpsuitWSMSyndicate
+      - ClothingUniformJumpsuitHRDSyndicate
+      - ClothingUniformJumpsuitCHESyndicate
+      - ClothingUniformJumpsuitHCRSyndicate
+      # end funkystation specific syndie wear
       - ClothingOuterWinterCentcom
       - ClothingOuterWinterSyndie
       - ClothingOuterWinterSyndieCap
@@ -1284,6 +1305,10 @@
     - BioGenLeft4Zed
     - BioGenEZNutrient
     - BioGenRobustHarvest
+  - type: EmagLatheRecipes
+    emagStaticRecipes: #funky make e maggable
+    - AbominationCube
+    - SpaceCarpCube
 
 - type: entity
   parent: BaseLathe
@@ -1317,7 +1342,7 @@
       staticRecipes:
         - SheetSteel
         - SheetGlass1
-        - SheetRGlass
+        - SheetRGlassRaw
         - SheetPlasma1
         - SheetPGlass1
         - SheetRPGlass1
@@ -1343,7 +1368,7 @@
     staticRecipes:
       - SheetSteel
       - SheetGlass1
-      - SheetRGlass
+      - SheetRGlassRaw
       - SheetPlasma1
       - SheetPGlass1
       - SheetRPGlass1
