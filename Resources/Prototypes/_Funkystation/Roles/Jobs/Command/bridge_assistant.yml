@@ -1,0 +1,51 @@
+- type: job
+  id: BA #BA = bridge assistant
+  name: job-name-ba
+  description: "Blue is the new grey! Yell at the Captain to follow SOP while ignoring it yourself! Steal the Chief Engineer's tools because you needed them! The world is your oyster!"
+  playTimeTracker: JobBA
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 36000 #10 hrs
+  weight: 20
+  startingGear: BAGear
+  icon: "JobIconBA"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Command
+  - Cryogenics
+  - Security
+  - Lawyer
+  - Engineering
+  - Medical
+  - Salvage
+  - Cargo
+  - Research
+  - Robotics
+  - Service
+  - Maintenance
+  - External
+  - Janitor
+  - Theatre
+  - Bar
+  - Chemistry
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - Atmospherics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: BAGear
+  equipment:
+    id: BAPDA
+    ears: ClothingHeadsetAltCommand
+  storage:
+    back:
+    - Flash

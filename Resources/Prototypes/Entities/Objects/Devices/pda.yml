@@ -526,6 +526,21 @@
 
 - type: entity
   parent: BasePDA
+  id: BAPDA
+  name: bridge assistant PDA
+  description: Smells of coffee...
+  components:
+  - type: Pda
+    id: BAIDCard
+    state: pda-ba
+  - type: PdaBorderColor
+    borderColor: "#53609F"
+    accentHColor: "#C4001F"
+  - type: Icon
+    state: pda-ba
+
+- type: entity
+  parent: BasePDA
   id: HoPPDA
   name: head of personnel PDA
   description: Looks like it's been chewed on.

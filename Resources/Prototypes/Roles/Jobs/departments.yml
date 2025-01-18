@@ -59,6 +59,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - BA #Bridge Assistant, Funkystation
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel

@@ -1,0 +1,25 @@
+#Bridge Assistant
+#jumpsuit
+- type: loadoutGroup
+  id: BAJumpsuit
+  name: loadout-group-ba-jumpsuit
+  minLimit: 1
+  loadouts:
+  - BAJumpsuit
+  - BAJumpskirt
+
+#bag
+- type: loadoutGroup
+  id: BABackpack
+  name: loadout-group-ba-backpack
+  loadouts:
+  - BABackpack
+  - BASatchel
+  - BADuffel
+
+#shoes
+- type: loadoutGroup
+  id: BAShoes
+  name: loadout-group-ba-shoes
+  loadouts:
+  - BAShoes

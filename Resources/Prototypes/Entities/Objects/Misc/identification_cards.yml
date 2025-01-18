@@ -122,6 +122,18 @@
 
 - type: entity
   parent: IDCardStandard
+  id: BAIDCard
+  name: bridge assistant ID card
+  components:
+  - type: Sprite
+    layers:
+      - state: default
+      - state: idba
+  - type: PresetIdCard
+    job: BA
+
+- type: entity
+  parent: IDCardStandard
   id: SecurityIDCard
   name: security ID card
   components:

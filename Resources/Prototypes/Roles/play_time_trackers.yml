@@ -20,6 +20,9 @@
   id: JobCaptain
 
 - type: playTimeTracker
+  id: JobBA
+
+- type: playTimeTracker
   id: JobCargoTechnician
 
 - type: playTimeTracker

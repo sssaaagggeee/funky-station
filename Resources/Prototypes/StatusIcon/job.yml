@@ -39,6 +39,14 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconBA
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: BA
+  jobName: job-name-ba
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconBotanist
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

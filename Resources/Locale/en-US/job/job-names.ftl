@@ -19,6 +19,7 @@ job-name-engineer = Station Engineer
 job-name-atmostech = Atmospheric Technician
 job-name-hop = Head of Personnel
 job-name-captain = Captain
+job-name-ba = Bridge Assistant
 job-name-serviceworker = Service Worker
 job-name-centcomoff = CentComm Official
 job-name-cburn = Centcomm Quarantine Officer

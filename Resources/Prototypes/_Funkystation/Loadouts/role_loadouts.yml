@@ -14,3 +14,15 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobBA
+  groups:
+  - GroupTankHarness
+  - PassengerJumpsuit
+  - BAShoes
+  - BABackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool

@@ -1,0 +1,21 @@
+# Back
+- type: loadout
+  id: BABackpack
+  equipment:
+    back: ClothingBackpack
+
+- type: loadout
+  id: BASatchel
+  equipment:
+    back: ClothingBackpackSatchel
+
+- type: loadout
+  id: BADuffel
+  equipment:
+    back: ClothingBackpackDuffel
+
+# Shoes
+- type: loadout
+  id: BAShoes
+  equipment:
+    shoes: ClothingShoesColorBlack
